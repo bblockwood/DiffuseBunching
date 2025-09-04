@@ -1,7 +1,4 @@
-function main
 % This script estimates the model on a simulated data set. 
-
-% addpath(genpath('../../lib/matlab/')); % other matlab resources
 
 % Tax parameters 
 k = 300;
@@ -30,5 +27,3 @@ disp(['Estimated lumpiness parameter (mu): ' num2str(pHat.mu)]);
 
 plot(zData, [hData hHat], 'Marker','.','LineWidth',1);
 legend('Income histogram', 'Estimated best-fit');
-
-end
